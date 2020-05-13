@@ -1,0 +1,87 @@
+body{
+	font-family: Permanent Marker;
+	background: #348F50;  
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  
+    background: linear-gradient(to right, #56B4D3, #348F50); 
+}
+
+h1{
+    background : #c2b082;
+    margin: 0;
+    padding:10px 10px 10px 15px ;
+    font-weight: 100;
+    color : black;
+    height : 40px;
+}
+
+
+li{
+	height : 40px;
+	background: #bababa;
+	line-height: 40px;
+	color :#666;
+}
+
+li:nth-child(2n){
+	background-color: #f7f7f7;
+}
+
+input{
+	font-size: 18px;
+	height : 40px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #ccb372;
+	padding-left: 5px;
+	color:brown;
+ 
+}
+
+input:focus{
+    background: white;
+    border : 2px solid purple;
+}
+
+ul {
+	padding :0;
+	margin:0;
+    list-style-type: none;
+}
+
+.change{
+	color : red;
+ text-decoration: line-through;
+}
+
+
+
+.fa-pencil-alt{
+   float:right;
+   padding-top: 10px;
+}
+
+li span{
+	background :#e74c3c;
+	height: 40px;
+	color:black;
+	margin-right: 10px;
+	display: inline-block;
+	width:0;
+	text-align: center;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+
+}
+
+#container{
+	width:400px;
+	border : 2px gray solid;
+	margin : 100px auto;
+	color:grey;
+	box-shadow: 10px 10px 7px 0px rgba(0,0,0,0.75);
+}
